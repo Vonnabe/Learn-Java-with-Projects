@@ -1,14 +1,12 @@
 package ch3.exercises;
 
+//Exercise 3.1: Create a method that calculated the avg kg of dinosaurs
 public class Exercise3_1 {
     public static void main(String[] args) {
-        // Declare the weights of two dinosaurs
-        double dino1Weight = 8000; //in kilograms
-        double dino2Weight = 5000; //in kilograms
-
-        // Calculate and print the average weight
-        double averageWeight = (dino1Weight + dino2Weight) / 2;
-        System.out.println("Average Dinosaur Weight: " + averageWeight + " kg");
+double dinoA=3559.9;
+double dinoB= 4421.1;
+double avgDinoWight = (dinoA+dinoB)/2;
+        System.out.println("The average weight of the dinosaurs is: " + avgDinoWight + " kg");
 
     }
 }
